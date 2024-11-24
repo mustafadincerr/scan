@@ -1,6 +1,7 @@
 FROM node:16-alpine
 RUN apk update 
-RUN apk upgrade -y 
+RUN apk upgrade
+
 
 WORKDIR /app
 
