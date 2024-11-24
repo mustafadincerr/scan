@@ -1,4 +1,6 @@
 FROM node:16-alpine
+RUN apt update 
+RUN apt upgrade -y 
 
 WORKDIR /app
 
